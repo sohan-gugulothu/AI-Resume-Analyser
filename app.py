@@ -3,7 +3,7 @@ import PyPDF2
 from openai import OpenAI
 
 # OpenAI API Key
-client = OpenAI(api_key="YOUR_API_KEY")
+client = OpenAI(api_key=st.secret["OPEN_API_KEY"])
 
 st.title("AI Resume Analyzer")
 
